@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="rw">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sun Hope Films - Twandikire</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+    <h1>Sun Hope Films</h1>
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <nav class="nav-links">
+      <a href="index.html">Ahabanza</a>
+      <a href="films.html">Filimi</a>
+      <a href="about.html">Ibyerekeye</a>
+      <a href="contact.html">Twandikire</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Twandikire</h2>
+    <form id="contactForm">
+        <label for="name">Izina:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Ubutumwa:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Ohereza</button>
+    </form>
+    <p id="formMessage"></p>
+</main>
+
+<footer>
+    <p>&copy; 2025 Sun Hope Films. Uburenganzira bwose burabitswe.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
