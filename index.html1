@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="rw">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sun Hope Films</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #555;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #000;
+    }
+    main {
+      padding: 40px 10px;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sun Hope Films</h1>
+    <p>Filime zinyuze umutima, z’ubuzima n’umurage wacu</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Ahabanza</a>
+    <a href="about.html">Ibyerekeye</a>
+    <a href="#">Amafoto</a>
+    <a href="#">Videwo</a>
+    <a href="#">Twandikire</a>
+  </nav>
+
+  <main>
+    <h2>Murakaza neza kuri Sun Hope Films!</h2>
+    <p>Turi itsinda ry’abakora filime, series n’ibindi bikorwa bifasha urubyiruko n’umuco nyarwanda gutera imbere binyuze mu buhanzi n’itangazamakuru.</p>
+    <p>Reba byinshi kuri page yacu “About Us”.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 Sun Hope Films. Uburenganzira bwose burabitswe.
+  </footer>
+
+</body>
+</html>
